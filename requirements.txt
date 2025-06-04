@@ -1,0 +1,5 @@
+selenium
+pytest
+
+
+# pytest tests/test_add_new_product.py -v

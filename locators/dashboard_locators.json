@@ -1,0 +1,21 @@
+{
+  "dashboard_page": {
+    "dashboard": "//*[@id='b1-b1-b1-b3-ContentText']//span[text()='Dashboard']",
+    "productos_servicios": "//button[span[text()='Productos y Servicios']]",
+    "nuevo_producto": "//button[.//span[normalize-space(text())='Nuevo producto']]",
+    "informacion": "//button[.//span[normalize-space(text())='Información']]",
+    "buscar_detalle": "//input[contains(@id,'Input_Detail2')]",
+    "resultado_detalle": "//td[contains(@class,'col-products-thick')]/span"
+  },
+  "add_product_page": {
+    "nombre_producto": "//input[contains(@id,'Input_ProductoOrServicio')]",
+    "buscar_btn": "//button[.//span[normalize-space(text())='Buscar']]",
+    "primer_checkbox": "(//input[@type='checkbox' and contains(@id,'Checkbox1')])[1]",
+    "siguiente_btn": "//button[.//span[normalize-space(text())='Siguiente']]",
+    "medida_comercial": "//input[contains(@id,'Input_CommercialMeasurement')]",
+    "precio_unitario": "//input[contains(@id,'Input_UnitaryPrice')]",
+    "dropdown_medida": "//select[contains(@id,'Measurement')]",
+    "detalle": "//input[contains(@id,'Input_Detail') and @type='text']",
+    "guardar_btn": "//button[.//span[normalize-space(text())='Guardar']]"
+  }
+}

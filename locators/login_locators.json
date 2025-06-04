@@ -1,0 +1,7 @@
+{
+  "login_page": {
+    "username": "//*[@id='b1-Input_Username']",
+    "password": "//*[@id='b1-Input_Password']",
+    "login_button": "//*[@name='LoginBTN']"
+  }
+}
